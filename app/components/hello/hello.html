@@ -1,8 +1,12 @@
 <template>
-    <h1>${message}</h1>
-    <img src.bind="image" alt="logo">
-    <div>
-        <input type="text" value.bind="input">
-        <p>${input}</p>
-    </div>
+  <div class="row">
+      <div class="small-12 columns">
+          <h1 class="align-center">${message}</h1>
+          <img src.bind="image" alt="logo">
+          <div>
+              <input type="text" value.bind="input">
+              <p>${input}</p>
+          </div>
+      </div>
+  </div>
 </template>

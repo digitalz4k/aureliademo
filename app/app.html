@@ -1,0 +1,11 @@
+<template>
+    <!-- Page requires Foundation styles -->
+    <require from="foundation-sites/dist/foundation-flex.min.css"></require>
+    <!-- Page requires top-bar custom element -->
+    <require from="components/common/topbar"></require>
+
+
+    <top-bar router.bind="router"></top-bar>
+    <!-- Loading app.view -->
+    <router-view></router-view>
+</template>

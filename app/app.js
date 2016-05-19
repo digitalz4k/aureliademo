@@ -1,7 +1,9 @@
-export class Layout {
+export class App {
 
     configureRouter(config, router){
         config.title = 'Aurelia Demo';
+        config.options.pushState = true;
+        config.options.hashChange = false;
         config.map([
             { route: ['', 'hello'], moduleId: './components/hello/hello',
                 name: 'Hello', title: 'Hello', nav: true },
