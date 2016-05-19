@@ -1,0 +1,18 @@
+<template>
+    <require from="foundation-sites/dist/foundation-flex.min.css"></require>
+    <require from="components/common/topbar"></require>
+
+    <top-bar></top-bar>
+
+    <div class="row">
+        <router-view></router-view>
+
+       <div class="column align-center">
+           <compose view-model="components/options/options"></compose>
+       </div>
+       <div class="column align-center">
+           <compose view-model="components/events/events"></compose>
+       </div>
+
+    </div>
+</template>

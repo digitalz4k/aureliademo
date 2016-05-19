@@ -1,0 +1,26 @@
+{
+    "name": "aureliademo",
+    "version": "0.1.0",
+    "description": "A simple lab demo with Aurelia Framework.",
+    "main": "server.js",
+    "engines": {
+        "node": "*",
+        "npm": "*"
+    },
+    "scripts": {
+        "postinstall": "jspm install -y",
+        "start": "http-server -p 1337 -c-1 -o -cors"
+    },
+    "jspm": {
+        "dependencies": {
+          "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.2.1",
+          "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.4",
+          "foundation-sites": "npm:foundation-sites@^6.2.1"
+        },
+        "devDependencies": {
+          "babel": "npm:babel-core@^5.8.24",
+          "babel-runtime": "npm:babel-runtime@^5.8.24",
+          "core-js": "npm:core-js@^1.1.4"
+        }
+    }
+}
