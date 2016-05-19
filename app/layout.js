@@ -7,7 +7,7 @@ export class Layout {
                 name: 'Hello', title: 'Hello', nav: true },
 
             { route: 'options', moduleId: './components/options/options',
-                title: 'options', nav: true },
+                title: 'Options', nav: true },
 
             { route: 'events', moduleId: './components/events/events',
                 title: 'Events', nav: true },
